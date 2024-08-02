@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 const cors = require('cors');  // Import cors
 
-const app = express();
+
 app.use(cors());  // Enable CORS for all origins
 app.use(bodyParser.json())
 // User Details
